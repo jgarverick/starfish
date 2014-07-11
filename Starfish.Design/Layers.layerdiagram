@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f15a24bb-a539-474b-a491-38fa4dff34ad" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="5ec27be6-a2ec-44b5-904e-fbc0a0e20517" name="Starfish">
+      <references>
+        <reference Id="c131249e-9372-4384-8dc0-e70653285c95" name="Starfish">
+          <ArtifactNode Label="Starfish" Category="CodeSchema_Namespace" Id="(Namespace=Starfish)" />
+          <ExpandedNode Id="(Assembly=Starfish.UnitTests)" Label="Starfish.UnitTests.exe" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=Starfish.TestApp)" Label="Starfish.TestApp.exe" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=Starfish)" Label="Starfish.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Namespace=Starfish)" Label="Starfish" Category="CodeSchema_Namespace">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="67eca842-c393-4dce-8a97-5458b967f7de" name="Starfish.Base">
+      <references>
+        <reference Id="f4cc939d-c3a2-49b5-8f5c-fb8ec88a75b4" name="Starfish.Base">
+          <ArtifactNode Label="Starfish.Base" Category="CodeSchema_Namespace" Id="(Namespace=Starfish.Base)" />
+          <ExpandedNode Id="(Assembly=Starfish)" Label="Starfish.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Namespace=Starfish.Base)" Label="Starfish.Base" Category="CodeSchema_Namespace">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="25417251-1da1-44c3-b8bb-76270d774829" name="Starfish.PatternBuilders">
+      <references>
+        <reference Id="205414be-b5ea-4fd3-b50b-0e2edd86bedc" name="Starfish.PatternBuilders">
+          <ArtifactNode Label="Starfish.PatternBuilders" Category="CodeSchema_Namespace" Id="(Namespace=Starfish.PatternBuilders)" />
+          <ExpandedNode Id="(Assembly=Starfish)" Label="Starfish.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Namespace=Starfish.PatternBuilders)" Label="Starfish.PatternBuilders" Category="CodeSchema_Namespace">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="35b0e673-3110-47ba-8878-6cbfcd7e16b8" name="Starfish.Structures">
+      <references>
+        <reference Id="66e6d345-2013-45e8-be59-9e85b6806a34" name="Starfish.Structures">
+          <ArtifactNode Label="Starfish.Structures" Category="CodeSchema_Namespace" Id="(Namespace=Starfish.Structures)" />
+          <ExpandedNode Id="(Assembly=Starfish)" Label="Starfish.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Namespace=Starfish.Structures)" Label="Starfish.Structures" Category="CodeSchema_Namespace">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="9e9ced61-22e2-4887-a8f3-e807879c8fd7" name="Templates">
+      <childLayers>
+        <layer Id="ff065140-cedd-4806-937f-51118f6abf09" name="Starfish.Templates.ConfigFiles">
+          <references>
+            <reference Id="682af550-bcc4-446c-acec-e2c78503612c" name="Starfish.Templates.ConfigFiles">
+              <ArtifactNode Label="Starfish.Templates.ConfigFiles" Category="CodeSchema_Namespace" Id="(Namespace=Starfish.Templates.ConfigFiles)" />
+              <ExpandedNode Id="(Assembly=Starfish)" Label="Starfish.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=Starfish.Templates.ConfigFiles)" Label="Starfish.Templates.ConfigFiles" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="124c2e49-7ec8-4f90-85e5-0095ac199645" name="Starfish.Templates.Objects">
+          <references>
+            <reference Id="b5bb7000-bde8-4a2a-879d-fc9563e22a44" name="Starfish.Templates.Objects">
+              <ArtifactNode Label="Starfish.Templates.Objects" Category="CodeSchema_Namespace" Id="(Namespace=Starfish.Templates.Objects)" />
+              <ExpandedNode Id="(Assembly=Starfish)" Label="Starfish.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=Starfish.Templates.Objects)" Label="Starfish.Templates.Objects" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="94695d89-aff6-4d1a-a2e2-a0f2bc3f0d3b" name="Starfish.Templates.Projects">
+          <references>
+            <reference Id="656a4c74-c9fc-4561-afcd-aab94b40df54" name="Starfish.Templates.Projects">
+              <ArtifactNode Label="Starfish.Templates.Projects" Category="CodeSchema_Namespace" Id="(Namespace=Starfish.Templates.Projects)" />
+              <ExpandedNode Id="(Assembly=Starfish)" Label="Starfish.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=Starfish.Templates.Projects)" Label="Starfish.Templates.Projects" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

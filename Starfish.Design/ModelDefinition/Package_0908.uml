@@ -1,0 +1,3040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="f4e784f1-918f-4bc1-b262-63399fe3aa61"
+  name="Starfish"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4ac3e153-65e0-425f-9199-e9266602c2cf"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=Starfish"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <enumeration
+        Id="ec6339a5-ea79-4252-8baf-d193cc0b8eef"
+        name="PatternBuilderLanguageCode"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="b9eafb48-f147-45b7-8a4c-a96b441b7460"
+            handle="viewcode://./CodeSchema_Enum?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderLanguageCode"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0f53ae7e-11d8-4449-a3bd-36a1bb68cd56"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e2889b4-c6fc-4d0b-a899-0333145e6b0a">
+                <propertyInstance
+                  Id="0ffb0848-0653-46f6-859d-f99dbbe6c33a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6f753705-c124-45e8-ba0e-168c29009474">
+                <propertyInstance
+                  Id="f3d42f6a-63fc-47f1-9445-abc1efdb365b"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88692143-fe57-4b4d-b9d6-59176f3354e0">
+                <propertyInstance
+                  Id="1a65a05a-a0d3-42bd-8729-e000caa7f1dc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="94ada78b-716f-4756-86db-4ea48f63a893"
+            name="CPlusPlus">
+            <referencesInternal>
+              <reference
+                Id="7702ca92-7be6-470c-b963-5fef15133c5b"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderLanguageCode Member=CPlusPlus"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="09c672b1-fcfb-4fea-b368-862f24e572e4"
+            name="CSharp">
+            <referencesInternal>
+              <reference
+                Id="3a6550c7-f340-40d0-a305-d39984a07557"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderLanguageCode Member=CSharp"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="855cd1ac-4efd-4231-ad2f-72300242d724"
+            name="JSharp">
+            <referencesInternal>
+              <reference
+                Id="d33b7300-0fdd-4321-b666-c251fc071fb0"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderLanguageCode Member=JSharp"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="5f5d06d8-c471-47f2-81be-bd07ef2d910f"
+            name="Java">
+            <referencesInternal>
+              <reference
+                Id="6d805687-fbb5-42e6-a577-88da28e1993e"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderLanguageCode Member=Java"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="8b224416-821b-4827-9d08-e1899a3aa12d"
+            name="Python">
+            <referencesInternal>
+              <reference
+                Id="e39870d9-949e-4039-891e-b3421a23fe3e"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderLanguageCode Member=Python"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="89fc78bd-839b-4253-8874-4a51a0eddda8"
+            name="Ruby">
+            <referencesInternal>
+              <reference
+                Id="8700844d-3cf0-4166-9c62-62869d456779"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderLanguageCode Member=Ruby"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="587dd667-4cf4-4b26-b04c-d43294a3b127"
+            name="VB">
+            <referencesInternal>
+              <reference
+                Id="01e21533-fcc3-452a-b642-5c0ca101d48a"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderLanguageCode Member=VB"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="ab25859e-9630-48df-acd6-118df5a76221"
+        name="PatternBuilderOptions"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="3698f993-b55a-4c8c-bd28-8d9a775f73d5"
+            handle="viewcode://./CodeSchema_Enum?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderOptions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8396d9c1-b219-45f7-9586-ee5e5c55ce71"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f143519f-1712-4e33-9ea8-62aaf05320fe">
+                <propertyInstance
+                  Id="7ab7687c-616e-4780-aa1b-da9c45399cb5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e42fc124-7616-428d-8ebd-96e4ab648c0c">
+                <propertyInstance
+                  Id="4de5b382-6cec-4846-9261-dc1cf472f423"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c55db11-487b-432e-bd17-db3f2bb4228c">
+                <propertyInstance
+                  Id="a55714c2-6699-4aa2-8828-69bb7e3b05cd"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="5fdb4635-cbe8-4629-bfb0-9876ad5190b4"
+            name="CompileCodeAfterGeneration">
+            <referencesInternal>
+              <reference
+                Id="dcbc85db-2edb-404e-873e-41a43ded5344"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderOptions Member=CompileCodeAfterGeneration"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="9f852f94-a39d-49fa-a9a9-86a002e34af9"
+            name="CreateVSProjFile">
+            <referencesInternal>
+              <reference
+                Id="2902e961-6bc0-46ec-9d8c-523f037f21da"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderOptions Member=CreateVSProjFile"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="0555adc2-1a49-4e34-95e8-3e2323561d93"
+            name="GenerateManagerPerTable">
+            <referencesInternal>
+              <reference
+                Id="78ee5f5f-7009-4558-88f6-ee2f6170cb51"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderOptions Member=GenerateManagerPerTable"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="1e60b040-0260-4384-90f8-1f30b39b485e"
+        name="PatternBuilderTypeCode"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a7c78987-ed21-4eba-8e68-8d14f1a0f1d8"
+            handle="viewcode://./CodeSchema_Enum?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b23d076b-f75b-4269-ab57-a841a051c28c"
+            name="enum"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c24154c2-23cf-4ca4-ac9b-499544629153">
+                <propertyInstance
+                  Id="d2c62340-3814-4e70-8fa0-b064d0969ede"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9baa7844-661b-47b0-9854-f79f105054d1">
+                <propertyInstance
+                  Id="22f092c4-92ed-42fd-8cf4-71812bbebb61"
+                  name="BaseType"
+                  value="int" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="638314aa-fc44-486a-91d3-24f84ba36ce8">
+                <propertyInstance
+                  Id="2177adfc-1af8-4f0b-b487-f05109f636f1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="7fb6a952-41f1-4d2e-b1f1-53b0adecdc1a"
+            name="Composite">
+            <referencesInternal>
+              <reference
+                Id="78f272ac-d6d6-4df9-a1ad-968df8886900"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode Member=Composite"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="860663c4-aad3-4cf9-87c3-a6222ba87755"
+            name="Custom">
+            <referencesInternal>
+              <reference
+                Id="b69b13ac-065b-479a-8ed2-d7427f4debb8"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode Member=Custom"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="a95aeb52-09b1-44ae-b345-dce23e9eb383"
+            name="FullDataModel">
+            <referencesInternal>
+              <reference
+                Id="61a942cb-ac4e-4c78-b9b7-1f5a052cc2d0"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode Member=FullDataModel"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="daabcfc3-7e3a-400f-b19f-a16440d3255c"
+            name="Hibernate">
+            <referencesInternal>
+              <reference
+                Id="a271fd56-2c9d-4473-b13c-b8f958dcc87b"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode Member=Hibernate"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="e070a601-f202-4ffd-a26c-ec91b5bca6f6"
+            name="POCO">
+            <referencesInternal>
+              <reference
+                Id="eff2a1c4-d9e4-4302-b6cf-9410e1a4bb7e"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode Member=POCO"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="0a0afe26-aa11-4ab2-9858-d1dafacef19b"
+            name="ServiceAdapter">
+            <referencesInternal>
+              <reference
+                Id="e3ee0dba-e8a6-46fe-ac63-649288fccbca"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode Member=ServiceAdapter"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="b3eac13c-0d98-417f-bbe7-df659a536ac5"
+            name="ServiceFactory">
+            <referencesInternal>
+              <reference
+                Id="223fe62c-ef80-4c63-99bc-3031f3cfaeb3"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode Member=ServiceFactory"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+          <enumerationLiteral
+            Id="55cb0da7-3bf8-4213-b1c2-14659f2a257d"
+            name="StateMachine">
+            <referencesInternal>
+              <reference
+                Id="bf5954f0-31b7-40bf-84ae-867734b7f175"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternBuilderTypeCode Member=StateMachine"
+                tag="ViewCode" />
+            </referencesInternal>
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="22934bc8-0b42-4ae1-a1a1-67011f33f46c"
+        name="PatternResolver"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="48f04be2-4d70-427c-b8f0-58ae9c1e8958"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f883b971-5863-46fc-9ecb-bc89d681c97d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8218cd76-8a0f-4317-af43-23090164bc5b">
+                <propertyInstance
+                  Id="6eb0c5b0-022f-425e-9eee-57ca8cfe4f45"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="411cc946-78ab-49d5-9187-760d0e14b070">
+                <propertyInstance
+                  Id="5be940e6-4276-4973-910e-333385715a73"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="791e8378-e443-4775-b17c-ca1fea63273a">
+                <propertyInstance
+                  Id="d62e254e-d979-4b9f-87da-1dd14af52eb5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e2b140c-6b44-4c36-8508-3823649c380e">
+                <propertyInstance
+                  Id="3aacc875-8156-48b7-b4f3-9c83fe96a74f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b060eefe-93bd-4e7f-9da9-99265d38a819">
+                <propertyInstance
+                  Id="d48ca847-9cb8-4d07-a73b-38944c8007d4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="17772fd5-1ae0-419e-9949-461e0e2db392"
+            name="Resolver"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="85ebf042-32b5-4530-99db-a369eeba64d7"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=Resolver"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6da6cd68-c131-4404-98f1-a5ed595a79db"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f7549ea-2e33-4ec4-b49a-3c3c6b2120cd">
+                    <propertyInstance
+                      Id="d5af5b4b-6838-44fc-ad49-90f33951b353"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc337dd3-8d45-4caa-82ed-4b3440dc8b32">
+                    <propertyInstance
+                      Id="b315bbc1-6ea1-4e36-a253-f7d59d0db81b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e7352a5-17f5-4eed-ac24-e26dcda5de7f">
+                    <propertyInstance
+                      Id="f26c8098-4abe-4cab-91f3-d4e7262dcb19"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5acdd653-ce84-4aab-82ef-b088df3d50af">
+                    <propertyInstance
+                      Id="7d8ed92c-abdc-4203-a23e-fa88130b9d01"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb01944f-cdc9-44a3-8bfb-80d2c8849084">
+                    <propertyInstance
+                      Id="7b45a7ab-49f3-4401-9411-2433bf115f1d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="cd0e3888-f257-4a31-8a4c-6a72ace5b2a5"
+                LastKnownName="UnityContainer"
+                LastKnownLocation="Package7_0849.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ebdd81c5-723c-4b63-ad71-9272a7173314"
+            name="patternType"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="eba82b26-9e69-4525-ab73-bae71bcfa7a1"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=patternType"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="26f5386b-aa36-4c04-8682-6e31a3b94ae2"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f97553a-9cb8-4d27-988d-f5037172dbf0">
+                    <propertyInstance
+                      Id="e592cbe0-6a5b-4345-8eae-7403bb768177"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cf0463d-ce54-4192-af32-4d29e80ca9c4">
+                    <propertyInstance
+                      Id="c6dc8598-bdf4-43c4-a379-80b03875eb51"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2ab3792-a73f-4d49-94d0-5c0b20927f2c">
+                    <propertyInstance
+                      Id="db8933ae-93ce-4d22-9972-8105acb5e878"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="810ebf33-c5e0-46f3-bdba-b1c56dd5365b">
+                    <propertyInstance
+                      Id="da7a07fa-027f-4a63-b918-652fb5e6b618"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f06a1fc4-7ed5-44d8-95c8-7a500d8c9d58">
+                    <propertyInstance
+                      Id="2aa1d090-4608-4884-96ae-548818b006a6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="1e60b040-0260-4384-90f8-1f30b39b485e"
+                LastKnownName="PatternBuilderTypeCode"
+                LastKnownLocation="Package_0908.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b7f9a2b8-cf86-4b29-98da-1a29912cec69"
+            name="targetLanguage"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2ad5a327-678a-417e-a141-0578a464fb14"
+                handle="viewcode://./CodeSchema_Field?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=targetLanguage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f6abb314-8992-41e7-9460-7100b8c4ecb3"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b36af411-d944-4fbb-99cd-0b3e6f2f7538">
+                    <propertyInstance
+                      Id="6aae3680-7471-4bfa-b7ff-7f42469eaa99"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="baf45c70-98c2-4668-b49e-f6b49c8f6a19">
+                    <propertyInstance
+                      Id="bb5c98f3-2215-4ab6-bf97-45f43f94a5ac"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08b02245-4fae-4f9b-bf32-ce37f5bace7f">
+                    <propertyInstance
+                      Id="4cbecd46-f6e0-4fb2-a158-db1d4ea8df9e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c5ccf15-d755-410f-98e2-f1e03d3d4623">
+                    <propertyInstance
+                      Id="038b2aea-d84f-43aa-b50b-5462b500f5f5"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13048092-421c-42d8-b2c8-05a714c070f1">
+                    <propertyInstance
+                      Id="e7e76f6a-a71b-4b55-b0dc-5100c0ff836c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="ec6339a5-ea79-4252-8baf-d193cc0b8eef"
+                LastKnownName="PatternBuilderLanguageCode"
+                LastKnownLocation="Package_0908.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2aa3983c-603a-4fc6-bf51-11d0ec5fc0aa"
+            name="Resolve"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="18537df6-839d-4bae-bf62-5509bca8c1e9"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=(Name=Resolve OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5949fa43-4c70-4130-bd95-788eb2cee8dd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fe60a22-9376-407a-9124-a08f43f00be5">
+                    <propertyInstance
+                      Id="ab05213c-67ba-46bc-b16c-63d498baa1fc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb603303-eb93-4003-9e3a-088b089ac1c9">
+                    <propertyInstance
+                      Id="32438fc7-1044-4cef-91bd-69e30305d9e9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3fc580c-0a4a-4308-a29b-b39de469b599">
+                    <propertyInstance
+                      Id="2a51bb90-1d30-411d-aa31-4dc52fa3bfc5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f09527fd-2744-4137-9731-54d87fb42e96">
+                    <propertyInstance
+                      Id="eef3eaf5-1d3f-471b-9ddb-7a3293a50e77"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0ccb5b1-dc6b-43e0-a4a5-e9b197925b4e">
+                    <propertyInstance
+                      Id="e85eca2d-0e3d-4f89-965b-97a101997904"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bb4d61ea-0e07-4225-8185-63c7f4d3ac06"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="37070daa-295f-45f6-9795-8667aaa02e23"
+                      LastKnownName="List&lt;IPatternTemplate&gt;"
+                      LastKnownLocation="Package3_0849.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5ddf6719-8d1b-4ccf-b955-8f9af42fd68c"
+                  name="className"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="30a16fb8-347a-4ec2-8b9c-287c6ff2187e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=(Name=Resolve OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)]) ParameterIdentifier=className"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Starfish.Design.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ef3215b8-61b7-47eb-9093-68ba756fa581"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e047c371-9d68-4f1c-9c42-d97d08d85bab"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=(Name=Resolve OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String),(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)]) ParameterIdentifier=options"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ebfee788-e242-4dcd-b8e6-1998eb2f3f2b"
+            name="Resolve"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="762f569d-90ff-4a54-9255-ea734c263c2d"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=(Name=Resolve OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9393b180-3ed6-4d36-ae3a-4a4d4ef93e61"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="beeb9ad8-941f-4b01-9e8e-3b44b5396194">
+                    <propertyInstance
+                      Id="3a7606b0-fdad-4942-bdb0-244963ae4c21"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a96f23af-f6a0-400c-ac5b-89f118b174a0">
+                    <propertyInstance
+                      Id="581cec3e-79b5-43ba-b63e-b7ef95a01ccd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c5c4165-d04c-4964-aa94-0fd03116aa8e">
+                    <propertyInstance
+                      Id="01b2f312-7d28-4006-9241-c188eb6b7b03"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5efcf89-8aff-4b68-a01e-b83748d92e4e">
+                    <propertyInstance
+                      Id="7a009f6e-f263-4efa-8c79-4d596be93433"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb8634a1-8494-4ce4-ae6c-57885e8505eb">
+                    <propertyInstance
+                      Id="00d63189-1dbe-454d-a805-307dcb5b12dc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0478fc71-27b2-4b55-ae47-67bb7b854bef"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="7d978b83-b1ec-4c99-93d8-3f9a7273521f"
+                      LastKnownName="IPatternBuilder"
+                      LastKnownLocation="Package_0908.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="45a5d465-8058-4eae-a892-2951a7c1c541"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f5661142-d84d-4d48-9c4c-0cc1ff1ae32f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=(Name=Resolve OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)]) ParameterIdentifier=options"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fc6b5199-912c-43da-bc25-030604f0cb45"
+            name="ResolveBuilder"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b38faf9b-0ab4-4792-9b0d-b3b2c3231ced"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=ResolveBuilder"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9cc206de-0d04-452e-9b42-74d2b9c9cbeb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96bd97fe-4e1b-4c5c-b115-65cb70c8ebc0">
+                    <propertyInstance
+                      Id="78ebaec3-01ae-4c72-af4b-e91a22fc19fc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab0a81cb-abad-4c93-8409-9824505f347f">
+                    <propertyInstance
+                      Id="fe1de79b-44a7-4167-8b52-fd955d01c291"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf2a8381-02cb-47f5-8182-2fbb3b10e6e4">
+                    <propertyInstance
+                      Id="fdd5d998-b768-45c5-bb1f-391470ea4ae9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bfe6e4f-f274-43ca-99e8-191b3d1075c6">
+                    <propertyInstance
+                      Id="3aa2e292-a6e6-46d1-a89c-3bdabf4349f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d88eceea-bad9-4d97-b891-397fbd5b0363">
+                    <propertyInstance
+                      Id="c01e5412-8e64-4a91-accf-3d8df9ab370e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f370adf7-63af-4035-89a8-a55ddf1f6421"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="7d978b83-b1ec-4c99-93d8-3f9a7273521f"
+                      LastKnownName="IPatternBuilder"
+                      LastKnownLocation="Package_0908.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="40a132fb-6fdf-4963-a144-f49b4750d6d6"
+            name="ResolvePatternTemplates"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="85400957-73bc-4bda-ade4-a89d44267e06"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=ResolvePatternTemplates"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4c0c0ec4-15d4-45d2-a7e6-b06b636309f8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff4dbcfe-3aa5-4b3d-b5b3-42c8309ba728">
+                    <propertyInstance
+                      Id="88432275-4e28-4ccc-8aba-8f6f1b757da7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6c4e210-326e-4f17-87a6-ae17fd9f8ab4">
+                    <propertyInstance
+                      Id="592981dc-4c69-411c-9056-851c64feac7a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="beb1e1a1-e761-4dcd-bb68-a67d2ad59801">
+                    <propertyInstance
+                      Id="870bd02c-041b-4c04-9d04-774b35877f27"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b116428-76f7-4090-98a6-96af664069ba">
+                    <propertyInstance
+                      Id="79bdd8c6-9820-4590-b020-5d10743033c3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0835962-b4ab-4fe8-8171-bdcba66ae435">
+                    <propertyInstance
+                      Id="fe04d41e-118e-49b2-8c95-ebb2f41ef961"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f9c700dd-2897-4f86-8128-f811d89b4dea"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="37070daa-295f-45f6-9795-8667aaa02e23"
+                      LastKnownName="List&lt;IPatternTemplate&gt;"
+                      LastKnownLocation="Package3_0849.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="417a4b66-11c5-4821-91bd-0dc34c1d35e9"
+            name="PatternResolver"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b3fa9d0f-f8c5-4c9a-8250-5c67fcf1bcbe"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="09bc592a-1d77-4cbf-ad37-69047e672936"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6568a26-6ffa-4a90-865b-c34b104b1071">
+                    <propertyInstance
+                      Id="1976e367-7d83-46b9-9863-4dfe0a7bd69c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="987a9acb-a26b-46f7-bb10-bd0288e9a17e">
+                    <propertyInstance
+                      Id="2b70b95c-a4af-4f09-93eb-a9728c593608"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86dd84b3-9a28-484c-8108-5cdc6194b7e2">
+                    <propertyInstance
+                      Id="76900b0c-d4ee-4adf-82dd-206e1d39f825"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7f656f7-cc1a-416a-9276-88bb86ec2acd">
+                    <propertyInstance
+                      Id="6ee6dae1-26e3-4c70-9288-6447afb668f4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f932b0c-8025-4c7c-bf59-edec28874720">
+                    <propertyInstance
+                      Id="81993900-e033-4ec4-8c5c-b53a98f46aa3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="d91509fd-b7dd-46d3-ab2e-80dc1fc5fa19"
+            name="static PatternResolver"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4d27d5aa-3542-4a79-a7e5-eb4a4d105e09"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=PatternResolver Member=.cctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c4c8e4d1-8b82-4fc9-8923-1d1c1d94912c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ebe32a7-7685-4cd5-ae6f-44dbc01299f5">
+                    <propertyInstance
+                      Id="5e73358b-adc9-4ea0-8f3f-47340cc98842"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3e26954-fe51-4e2e-ba0e-90dda6fa868c">
+                    <propertyInstance
+                      Id="d84dbe4b-9814-4123-bfea-a20547ca626b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a87a924f-f350-4e4e-ad22-ecd10c293e51">
+                    <propertyInstance
+                      Id="ea89dc11-9c52-46f9-9e3d-40a44f35bb57"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79451369-8582-478a-9bc8-d8efbbe7c7eb">
+                    <propertyInstance
+                      Id="0ee7fb57-164c-4183-8d87-b35db433f9a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31fce953-bbde-42ce-9c6b-4ae32432e1bf">
+                    <propertyInstance
+                      Id="bc2febc3-1fba-4936-8dfd-c8da8892e460"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="93e51474-2021-4360-a592-577586dac8f1"
+        name="EFGenerator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9e8cd4cc-d008-4740-b4ca-06987f5ba0c6"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="71cfc351-1404-4d3b-817e-cd9f14ba0332"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="316f7295-3280-4320-8694-0103bdac27bc">
+                <propertyInstance
+                  Id="9a528aa0-5657-4c69-94e5-7f6848f13fff"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd97b35c-1c5a-4775-8da4-782789b5eb33">
+                <propertyInstance
+                  Id="55337eaa-dc81-4947-a9a2-5d28c1ad582d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="737bb06a-a386-4b96-be64-ee08c363eb0c">
+                <propertyInstance
+                  Id="83bdcee6-27a4-4474-896c-e5ab97895f7f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5389727-0dae-406e-904c-0e1ba66ba723">
+                <propertyInstance
+                  Id="91dc3d34-f550-4104-bc9f-c8268c31e700"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4d4b9cb4-a8f1-475d-bd70-4da3e0a33889">
+                <propertyInstance
+                  Id="eb278b1e-8dda-4b6f-ab4b-f02234ceab20"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="ed29e28a-d71e-45ee-9f3c-3fd0c3be7133"
+            name="Exeucte"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9ca93d88-6c47-4563-8891-9c5929e5bb3c"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=Exeucte OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="613d81ac-147c-40af-8ccd-836f8df2aa8a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46bd020f-99e8-4b47-ab78-83563c790c84">
+                    <propertyInstance
+                      Id="515e6b0b-5be3-44ea-8fef-d750d2e93e0b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d31d7de-df1f-4a3f-847d-24744a0204e4">
+                    <propertyInstance
+                      Id="7e0aabbb-fc93-42fc-aa51-2956dc895a68"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f535cb3-bed5-4ba3-ae88-51736c2ef249">
+                    <propertyInstance
+                      Id="22430dc4-f3e7-4678-bcc7-61fcc510e968"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e65db2bd-ede5-4abd-9e34-3145202a4525">
+                    <propertyInstance
+                      Id="3ef98bf1-2456-4ef3-b372-e9baf10131d6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d15225e-99e1-4dfc-9824-9650284e843d">
+                    <propertyInstance
+                      Id="834b65ec-71f0-4a0d-8de0-94df214cc6d1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6ab17587-831b-4f2a-976d-d166ead33426"
+                  name="options"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fdb6f42a-9028-4177-94e4-728424c55c8a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=Exeucte OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)]) ParameterIdentifier=options"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="149a62bb-e3c9-4c77-b0ac-adabad7953eb"
+            name="ParseEdmx"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="528cf4b7-a0a8-45e5-a513-27dcbf7c6084"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=ParseEdmx OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f539322c-3180-49bc-a00d-8e5b77a9c5b1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7f267b9-5814-47d2-b536-3c47dcecd3e9">
+                    <propertyInstance
+                      Id="c98dda40-faa0-4302-8268-04cddc569cf7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3072489-364a-45de-b1e7-93d786d01429">
+                    <propertyInstance
+                      Id="4a0acef9-361a-46dc-928e-cb94b1912c32"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb2b1e53-f842-4e58-b3ee-aa26b4304c69">
+                    <propertyInstance
+                      Id="513dbe8f-2013-4fe3-b090-facf6b248841"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54dd52bc-d6ba-45c1-b315-150cbbd48ed4">
+                    <propertyInstance
+                      Id="2c6bbc42-11da-4066-be04-9103155b8102"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="859af894-523a-436c-92e0-c4d5a461744c">
+                    <propertyInstance
+                      Id="fb63e343-deb3-4c13-9c73-9c4c3774fe47"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c5078b2b-b0c2-41af-8bb2-cf3cad76b2b6"
+                  direction="Return" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="84762df0-01da-4e33-bda3-00702b248bdf"
+                  name="cmdline"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6f792e14-6d46-4ddb-8689-83fc2ab845db"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=ParseEdmx OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine)]) ParameterIdentifier=cmdline"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7d5f3207-1bfe-4f28-8208-b6581414e279"
+            name="PollForCsdl"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="933e9cba-1bc3-49e7-aff4-0599924f1ece"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=PollForCsdl OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fc1c5b06-2511-4a18-a84e-a3c5b7e5024a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5939ec93-66ff-4b68-91f1-efa674047bf3">
+                    <propertyInstance
+                      Id="cc884d3c-53e9-4410-9655-d21210a33d92"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fa2ec12-dcdc-454d-89ba-e67981324cc1">
+                    <propertyInstance
+                      Id="fb9a9a77-f904-4785-b0e5-50cfe82f2ff2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef3e02d4-7ee7-4eb5-b517-81f57a245e36">
+                    <propertyInstance
+                      Id="2cdaf1f5-5432-4abf-ad3a-a5a438e99c93"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae2deb31-d5ba-475b-9f04-fc02d880a1ff">
+                    <propertyInstance
+                      Id="f01d1fee-5868-4ed8-b853-abd8e45e5d52"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="860456f9-93cc-4ed5-9af2-98bc015d003b">
+                    <propertyInstance
+                      Id="f524fcae-7d89-414d-9870-1b7e1596d7b7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="18fd1648-a4c2-4710-9595-52f341b88f7b"
+                  name="cmdline"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3817c824-4a26-4022-b3fe-6a997f323961"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=PollForCsdl OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine)]) ParameterIdentifier=cmdline"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b3681503-725d-456d-bc82-98c3d0452c35"
+            name="WriteAppConfig"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7ec48e95-9942-4267-a62d-be8ce76f5c5b"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=WriteAppConfig OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5519896-e91a-4b31-b433-dcb44d8e4883"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00acc1b4-fff9-4a4a-b792-8fc44ee3036a">
+                    <propertyInstance
+                      Id="b2c794c4-ce8f-4586-9856-e8bd5d51130c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0399fe63-13a7-4c13-a79b-ded3720b370a">
+                    <propertyInstance
+                      Id="2605b1be-cf8b-4592-a5c1-3bee9ef07e30"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6cbfcd9-db92-47d4-b936-707c3a9afea7">
+                    <propertyInstance
+                      Id="1d67a8eb-f3a9-475e-8248-cd48c06bd750"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df13de5d-3c85-408c-8c41-bec1e9f5c084">
+                    <propertyInstance
+                      Id="17e1f46f-8c28-4652-a449-f4450b45838f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="439970e4-1752-40bb-bec9-7537193604bc">
+                    <propertyInstance
+                      Id="ed54894a-4db4-45c4-a43d-528f4982c2df"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a7e305ee-716b-43f7-b351-c42f592525f7"
+                  name="cmdline"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="618ebd5b-6d1b-48cd-a7b6-b2730be3a133"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=WriteAppConfig OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine)]) ParameterIdentifier=cmdline"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3e2ac902-8986-4137-a177-ea1baf5c4a14"
+            name="WriteEdmxFile"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="86557d5d-22c6-4a27-bbca-caf2ff665b7e"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=WriteEdmxFile OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine),(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmxFile)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="60f46cbc-761b-4b90-87d4-68955ee71d01"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="244ffa55-165e-48f2-b938-224fab3b3e9f">
+                    <propertyInstance
+                      Id="b25c03c2-7e6c-4974-a832-d4c524cb2db3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ef8c134-6dd1-46c2-914b-dc428edff138">
+                    <propertyInstance
+                      Id="f8e38a01-8d69-4632-9d18-fef7e14c365c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5918e894-16fd-4a53-85b8-668b2686a56d">
+                    <propertyInstance
+                      Id="b317fd7c-33ab-4abb-8617-429fd4fb7190"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3118fc7a-b6aa-41a4-9323-391b0642ae17">
+                    <propertyInstance
+                      Id="a658a361-2295-4577-903d-b5976265f2a6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a01e6845-6f8e-47d6-9ab5-1917940869c4">
+                    <propertyInstance
+                      Id="3e92deef-2d60-4f8c-84d9-a55a63b7c264"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="41309786-b183-4e30-aab3-bdbb72677216"
+                  name="cmdline"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1d413628-41d7-477a-98f8-7c5fdb230b18"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=WriteEdmxFile OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine),(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmxFile)]) ParameterIdentifier=cmdline"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7d50f3a6-71fd-400a-865c-3e66b5cb335b"
+                  name="edmx"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b7970b45-af95-4156-9210-3ab471872e8f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=(Name=WriteEdmxFile OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmGenCommandLine),(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Templates.ConfigFiles Type=EdmxFile)]) ParameterIdentifier=edmx"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f4272a6b-0efd-4393-8316-61b72be2afea"
+            name="EFGenerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f59acc62-6272-40ed-9c98-1a2ba37c11ba"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=EFGenerator Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8511549-0e57-468a-96ad-24a4d63a5299"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55aec995-755a-4967-a021-27d160c44029">
+                    <propertyInstance
+                      Id="ef3e8d20-63c9-4268-9278-ccd10ba34314"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00ca9c72-49d1-430f-a156-9788318344f7">
+                    <propertyInstance
+                      Id="c078f475-93a1-4ae4-82e9-2a738b204b0a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f6998c5-d0f8-49d1-9d75-01d786ed0380">
+                    <propertyInstance
+                      Id="8905cd13-c914-4333-b528-8d2fd6d9403d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a283cb43-6fdd-41ba-9d07-507b86bd1b31">
+                    <propertyInstance
+                      Id="c9201f60-40d0-4de6-81d1-a777d216a088"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71225f82-2a0c-4bae-ba43-52d816e72b12">
+                    <propertyInstance
+                      Id="4acf84b8-796a-4d5b-afe2-e073dd313325"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7d978b83-b1ec-4c99-93d8-3f9a7273521f"
+        name="IPatternBuilder"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="4d0f794a-a841-4025-a1d5-f9b3ad8840c5"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternBuilder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7156b69b-05c5-4b6c-84fe-d71316e183a4"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c0183079-1d6b-4503-9c01-a9ea5bddbc81">
+                <propertyInstance
+                  Id="93969c14-12ac-434a-bf1e-1ea2b0f9df5f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3166d2e3-9eed-44c0-98fd-ada19f1e7e9f">
+                <propertyInstance
+                  Id="fb65bfe4-b934-49b2-b225-b1e6bf13f51b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3b7414fd-93b3-40b5-a6a7-899a907fe89e">
+                <propertyInstance
+                  Id="ad6afb72-704e-4e93-bebe-2a8f587213e8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e474bb21-a466-4e9b-ada0-6aa687d2a1fb">
+                <propertyInstance
+                  Id="174be30b-3fdb-4645-89f5-28628f130485"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="d37802b8-c43a-431c-b82f-1acfb5865117"
+            isDerived="false"
+            sourceEndRoleName="IPatternBuilder"
+            targetEndRoleName="Templates"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="37070daa-295f-45f6-9795-8667aaa02e23"
+              LastKnownName="List&lt;IPatternTemplate&gt;"
+              LastKnownLocation="Package3_0849.uml" />
+            <description>Property Templates references type List&lt;IPatternTemplate&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="15bc31c7-66af-4bdd-b57d-e5556ec765d5"
+                  name="IPatternBuilder"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="11003771-25fa-44eb-8e73-5ecf2fc4d920"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="380ac2a8-6262-4a66-ace6-9fe56e8f4ce3"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e157617c-6133-4120-84ed-42344b76ef35"
+                  name="Templates"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1d0a3ea7-ac17-4e94-aed8-f7ca8b27c862"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="42e71b12-09b4-4501-8071-9a36ea087c36"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="9affb4d1-1850-40c7-acc7-081d0606a4ea"
+            name="ContractSource"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b2b97148-f804-4207-a0c5-8f33c01193eb"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternBuilder Member=ContractSource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6955dc30-65d5-49e6-922c-218d5f37faae"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07e5caf9-1dd2-42ad-bd38-2bc0c02a2e18">
+                    <propertyInstance
+                      Id="41ad30ab-fad3-4b94-b011-efda9d68e7ac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f36d69f5-d0eb-42db-89f1-025b11dae646">
+                    <propertyInstance
+                      Id="4ee89d8a-5935-40a6-b517-e0ab429d1a14"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be194a5a-c42b-438a-b86d-6956ad250bb7">
+                    <propertyInstance
+                      Id="92b38cf5-4025-491c-9576-fb2ba5ff8f3c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6fb7518-95f8-4eca-b1f2-5a52d29f223c">
+                    <propertyInstance
+                      Id="f036ddc9-285e-44ad-86c1-cf738e790081"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d22df7f3-a357-40f3-939d-7ee710f4cba8">
+                    <propertyInstance
+                      Id="c94ad013-0742-48f0-b942-93a0377b1c37"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13bb7922-f328-4066-8960-2111716823d3">
+                    <propertyInstance
+                      Id="0e81b276-cdd5-42fa-9415-873e521d9b90"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Starfish.Design.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a5a03258-3a77-4b51-8bac-bf80f3aee6bc"
+            name="ServiceSource"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="49f99b95-dfc5-40be-91d2-4e2958ea02eb"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternBuilder Member=ServiceSource"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ca377ec4-f61d-4fac-b15d-acc5f3116797"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3553f948-3210-47e0-97c0-1c6077117578">
+                    <propertyInstance
+                      Id="ca18c04d-a512-47b4-b9fd-320262bbf934"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="829a451f-b846-4c1d-88a5-ca857708b65f">
+                    <propertyInstance
+                      Id="46c9b06e-42a5-4a38-a20f-6108d02a8f19"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00a4272c-7631-4455-8c3f-5d9b3b42eff4">
+                    <propertyInstance
+                      Id="a8790d76-d752-4c79-8331-e1d2dfeabc1f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30d17923-93e0-45bc-a9a7-c7fcd47be1e8">
+                    <propertyInstance
+                      Id="7024033f-c119-409c-ba25-f449d9d7ba0c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71717915-36e5-4b3b-96a6-93a550c97e34">
+                    <propertyInstance
+                      Id="2153b6f4-1cfd-496c-bd1f-ce1f3f57e462"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adc86820-2e35-4a6b-b5a7-daab061df262">
+                    <propertyInstance
+                      Id="b468bc91-4803-4c67-b39c-459eec9d04b8"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Starfish.Design.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fe431f0b-cdc5-4221-8f63-d4ef9691cef4"
+            name="Templates"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="718d5985-6346-46b4-8e82-258bce388700"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternBuilder Member=Templates"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e5e790e-f966-476e-bc6e-f51974899df1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="accdcb52-dc4d-43e4-8320-a3514c2e989e">
+                    <propertyInstance
+                      Id="7c344b2d-e0f6-4013-a762-c6249fa3db62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="750fd483-ec3c-4cab-a0db-205a5aeb8d89">
+                    <propertyInstance
+                      Id="588b96d1-97bb-4f0e-a977-230d15fc9921"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4e3a5ad-ee7d-4867-96c3-090267f5c6f4">
+                    <propertyInstance
+                      Id="f9f03caa-ea7a-4768-b39a-4097e4f0e593"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d33573de-eccd-468b-a3a3-9ecc8da994cc">
+                    <propertyInstance
+                      Id="38195e04-7285-4dfc-8ac5-b74f8ca6a300"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f678dbc2-74f7-42c7-9aea-0d295adf4c2f">
+                    <propertyInstance
+                      Id="b029254a-13f2-4942-9146-dcd8a11a96d3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3cb24c2-d582-424f-a492-dcc4f3dd552b">
+                    <propertyInstance
+                      Id="6311a485-525d-405b-850b-28b5dc80e929"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="37070daa-295f-45f6-9795-8667aaa02e23"
+                LastKnownName="List&lt;IPatternTemplate&gt;"
+                LastKnownLocation="Package3_0849.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="d9d7aa45-acb8-49a6-932f-c3d044451926"
+            name="Initialize"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fc8b5a04-a3d7-4e0b-a197-6b13ee4a8b29"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternBuilder Member=(Name=Initialize OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0799102c-4912-4a45-88ac-64aef61d15d3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11ad9a38-6323-4aaa-af98-492891808b44">
+                    <propertyInstance
+                      Id="60f9a595-990b-4020-b6ff-a0f211c81da8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="868b43a6-a852-47ec-90b3-5fc1401473f5">
+                    <propertyInstance
+                      Id="f2b7da2a-df23-411d-9a45-51e17a72516c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa499e90-f44e-4476-ba47-36c6c38bc6c8">
+                    <propertyInstance
+                      Id="34b781c7-6480-4693-b0ce-1082a08688d4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db981aad-d738-4bef-9d60-7b5b929f931a">
+                    <propertyInstance
+                      Id="9582d1e2-5e3e-4ed3-a6fe-c35cf37a0334"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec2cc8db-5596-4841-82bc-16a6e233aad2">
+                    <propertyInstance
+                      Id="ba17a466-3425-4c1d-8124-6a0bf137ec43"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3c305971-c848-4c70-9309-921bd45c3965"
+                  name="config"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1f83e06b-a583-403f-823a-6202a5cff74b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternBuilder Member=(Name=Initialize OverloadingParameters=[(Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish.Structures Type=PatternBuilderConfig)]) ParameterIdentifier=config"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e5c97766-ed03-481c-a7e3-f176820e2511"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fa810dd2-277b-41ae-8884-7aa6b25a3d56"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternBuilder Member=Execute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="480564c0-b84e-467f-9d44-aac2946ba745"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="390e53ba-0b30-4f6a-a0d5-c80bd33b3c78">
+                    <propertyInstance
+                      Id="b7c0506d-2feb-47e2-a32a-157f18aaf5e8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d78144c-b154-45d8-8f87-6bda882364dc">
+                    <propertyInstance
+                      Id="1070c907-3232-4e12-997f-f0c1df00c396"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2b1d32e-1d88-40df-a876-3a067b091439">
+                    <propertyInstance
+                      Id="d78fe48b-5654-47b5-898a-06f4c5175a6d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20346600-95cc-4731-a6f1-e79e1ef9bb5b">
+                    <propertyInstance
+                      Id="16f38c5c-349f-4eee-a420-23072374c422"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9141e1b2-17a0-4e20-8042-57bf71d9888d">
+                    <propertyInstance
+                      Id="19a191c5-8dbc-4767-b2cd-eea5bcbf2f78"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="9f5fc7d8-ccee-439f-8894-cf5a144bf02c"
+        name="IPatternTemplate"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="3675a9c4-d898-46f8-b159-a7d7c6b83d55"
+            handle="viewcode://./CodeSchema_Interface?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="654f3465-103c-4b3b-ad89-279ac6d41f44"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1be96c1c-6732-462d-bfa7-e7b00ef397a1">
+                <propertyInstance
+                  Id="24abf921-145b-4017-8446-5a04353fcb26"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1cad5979-9952-434a-bffb-3e70918c0fc8">
+                <propertyInstance
+                  Id="514d622e-363f-41f0-8b24-90c180556b91"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e0300e4a-9c7f-4efb-8603-c5413159095b">
+                <propertyInstance
+                  Id="440c368c-b858-4f34-b583-6993c0c1b2d7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="46808e1e-00dd-488c-9935-98e24121ca69">
+                <propertyInstance
+                  Id="3aff2072-310c-4421-bf41-2c08e92f15cb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="a6e2c06a-fa57-4db2-b0b3-4e2ce9105a2d"
+            isDerived="false"
+            sourceEndRoleName="IPatternTemplate"
+            targetEndRoleName="Methods"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="cdd0b384-04f6-40d4-ac8b-59b734137b0d"
+              LastKnownName="List&lt;MethodStruct&gt;"
+              LastKnownLocation="Package3_0849.uml" />
+            <description>Property Methods references type List&lt;MethodStruct&gt;.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0fefe606-e688-4ab3-8a07-9fd54ddbf4fe"
+                  name="IPatternTemplate"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7b274105-5a9e-43e1-978c-7a273e6f92ee"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8bcda02d-1710-48e1-a102-dc0245a3da31"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0dadd5eb-235f-4139-b406-63864e24f9d2"
+                  name="Methods"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="1e7a853f-e840-407b-94a7-51b8f73385a5"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="36776430-c58a-4d9f-ba85-9501a667610d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3d787fbc-af4d-49af-a4b1-6f6126bc1100"
+            isDerived="false"
+            sourceEndRoleName="IPatternTemplate"
+            targetEndRoleName="TargetLanguage"
+            isLeaf="false"
+            isAbstract="false">
+            <enumerationMoniker
+              Id="ec6339a5-ea79-4252-8baf-d193cc0b8eef"
+              LastKnownName="PatternBuilderLanguageCode"
+              LastKnownLocation="Package_0908.uml" />
+            <description>Property TargetLanguage references type PatternBuilderLanguageCode.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f2c61c71-bbf0-4ae2-9aa3-6099d0740db2"
+                  name="IPatternTemplate"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="3f33ab0e-dd48-4861-8683-97ba9de575e4"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1149b49b-12d6-4f65-a25b-7e41787b04c3"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="712132b3-0dfe-40ea-b712-55c4a11b9c3e"
+                  name="TargetLanguage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7b2b793f-d6d7-4aff-9cd9-5dcd66c40fb3"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ec3e5786-7ee5-4994-a589-2b244f29e656"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributes>
+          <property
+            Id="65a26a93-d81c-4421-9bd3-6bf53e269747"
+            name="ClassName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3701116f-58a2-4b08-a80c-81fab5e4cf69"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate Member=ClassName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c97adfb0-304e-4276-8732-7c933fc41358"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0bf417a-1714-402c-8b35-700e21dfc0ca">
+                    <propertyInstance
+                      Id="04c8cbc7-67e0-4a7c-907c-71966c760761"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d78e0c2b-0cd4-4a96-920f-b992bb9b7f05">
+                    <propertyInstance
+                      Id="7d8e71a1-689d-4061-8402-07fb6d289712"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27fe6d0a-73eb-4c05-abd6-cbe3a11d912f">
+                    <propertyInstance
+                      Id="ec538a22-72d2-4a19-ac2b-101146376de8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="704c1822-de68-47a0-b872-bdbf97f59f7b">
+                    <propertyInstance
+                      Id="9655e9c8-ecaa-4251-aa77-1ccc80f7bb52"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bef7fa9-c2d4-4957-81b0-6ccdb077c2c6">
+                    <propertyInstance
+                      Id="5dc07700-8e22-4c45-8a4b-7dccdc3264a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4a8815f-5844-4cbc-8b7e-9a752ec99ff2">
+                    <propertyInstance
+                      Id="467ac52e-9543-42f1-a7c9-b3df670da0ea"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Starfish.Design.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4a0da4f6-3396-4dc3-bb9f-178cffeb5768"
+            name="FileName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2bd8612e-789e-4fdc-a3df-d4fcd92a26a3"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate Member=FileName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8a66ed95-0fe3-4ad7-ba9b-f2ca11aba5c5"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edd9ba06-c181-4045-87ca-e6957beeff4b">
+                    <propertyInstance
+                      Id="182a6beb-82d5-42e3-947c-42ada8bb4aa3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65d71fa4-259e-40fe-b9f8-75f6a4f9fe0d">
+                    <propertyInstance
+                      Id="902c9fc1-6865-4d7d-86a9-9fe6a93435bd"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4e06a27-7be5-4923-b267-3549217074a9">
+                    <propertyInstance
+                      Id="525a71b4-8e06-4424-a44c-5d7f7b2c39b0"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="775dc189-6c90-4fd8-b211-876392aca3c9">
+                    <propertyInstance
+                      Id="3896ea2a-acfc-4797-8ec6-873b69d8297d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="919123e5-33f1-4240-92aa-e34f77df4d89">
+                    <propertyInstance
+                      Id="3f73facf-5e01-4cb4-85e7-3fc0c0ad4608"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="176d30dd-2b51-4cdf-beca-7b1f16cf4581">
+                    <propertyInstance
+                      Id="5a599c4a-2f2e-4d67-8e89-1ab286d4fab4"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Starfish.Design.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b881c44b-65ca-4b3a-8229-4ce8e45dbe2b"
+            name="Methods"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="88223800-2774-4dea-a486-97aa1ec570ef"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate Member=Methods"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2f8b81bf-c72e-4357-a264-e6f1cd541052"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="65004da8-1ba8-4054-ad45-eabe2dfd05ca">
+                    <propertyInstance
+                      Id="22405406-a4a5-4e5e-9019-1ab261b6b095"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08a3fc4e-64fa-4eaa-88f6-557433097f73">
+                    <propertyInstance
+                      Id="bb7e7015-eae0-40cb-a834-da3f27b65d23"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b94efd7-8da6-4270-a8ea-69d0abecaada">
+                    <propertyInstance
+                      Id="42f33e80-ab38-4160-a69c-0b926011e82d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ed6803a-8475-41ec-8fa7-78cad9cf5edc">
+                    <propertyInstance
+                      Id="0c402acc-a489-41ae-a7b4-c19700c2adae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5837c753-ca99-4a4e-a6b5-9b7175d68c6b">
+                    <propertyInstance
+                      Id="139debee-2350-459b-b3be-add48cadda2f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a90456ca-d8eb-475d-8a08-7e21744af97b">
+                    <propertyInstance
+                      Id="1d5d37f9-fdd7-4489-9d1c-017ee4349090"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="cdd0b384-04f6-40d4-ac8b-59b734137b0d"
+                LastKnownName="List&lt;MethodStruct&gt;"
+                LastKnownLocation="Package3_0849.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a81a4508-ed7b-4315-bd6c-9a3e713ec9e2"
+            name="NameSpace"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="08047e5c-2f2e-4bf0-9b52-bd52d21aa4ba"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate Member=NameSpace"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c241c816-69d2-45c7-bf37-27d5083db417"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="162311a8-7084-46c3-a7a2-e43a4fd2ea7e">
+                    <propertyInstance
+                      Id="6a5d47c3-3e7a-4534-a199-34e75369dd72"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9094e344-fb19-4664-bf98-05254e2d2903">
+                    <propertyInstance
+                      Id="81d96b1f-c827-4873-be99-dd0bc3a980a5"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="feac5fe6-2991-4e6d-985f-303c40e2c409">
+                    <propertyInstance
+                      Id="05612328-2d8e-4a57-a8a3-bcf44cf2f1be"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02dadf4d-6ad1-4abe-8162-29baa0f32b98">
+                    <propertyInstance
+                      Id="303e2c30-7a46-4a94-b043-accd1340142f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e28f9c16-2841-41fc-ba75-2ec7c56b6372">
+                    <propertyInstance
+                      Id="a0760188-8dc5-4114-b054-64f2ab63ea7c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7ffa4c1-76ba-48ae-9c8b-b897cb151f98">
+                    <propertyInstance
+                      Id="7d33dd96-d6a7-491b-8d72-25b7a49c968e"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Starfish.Design.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="90c63e36-2602-4335-b6f1-936a4daf17c6"
+            name="ReturnType"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e94f14b5-501c-4af6-a9ad-964d9cb8b1d3"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate Member=ReturnType"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="08c31eca-6ad3-45ce-b456-ef805a809ee2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ff78127-0bcc-434b-86b6-331da93469d7">
+                    <propertyInstance
+                      Id="ba3667ec-cd80-456b-9f21-17ba19153a48"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33773b37-3c9f-475c-8746-f58c3716f787">
+                    <propertyInstance
+                      Id="329b62e0-3978-43cf-9260-f2eded07db07"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4aae6b5-ac1b-4217-bff4-cec3782e8689">
+                    <propertyInstance
+                      Id="780e06c3-2c3b-41f4-991d-6c1c6106fc6c"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad1020ab-b96d-4b89-9e3e-c5538e5c4a02">
+                    <propertyInstance
+                      Id="84a16cb9-5a54-4859-9954-337f0bb65f0f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74ceecc3-5ac7-4015-aa8f-40694f8f0a0d">
+                    <propertyInstance
+                      Id="9efcfd3d-f4ea-4416-8da3-5fbccf247f00"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a81d223e-9884-4592-81ec-e75a77ce32cd">
+                    <propertyInstance
+                      Id="2d98e2aa-d8a4-4ff4-bdb8-ceecf10b25e7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="Starfish.Design.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="86566a72-40fb-4f99-8a98-677e132f2eed"
+            name="TargetLanguage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="85f8f5f1-b5b4-4ebb-a260-908b135c365f"
+                handle="viewcode://./CodeSchema_Property?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate Member=TargetLanguage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7be3f6c5-c3f4-439f-89b7-fd990bdc626c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbb9fb27-7310-4677-bfac-0c90ec9a5bf0">
+                    <propertyInstance
+                      Id="6894e12e-5488-4a22-a29e-aff6317db860"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7d73bbe-e4e6-418c-950e-02196e7aa88b">
+                    <propertyInstance
+                      Id="be45abf9-4a33-4755-bdb9-acf02761e60a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="110c8d96-96e9-416a-8231-1e07fbf5270a">
+                    <propertyInstance
+                      Id="56baf03e-acc7-4e48-8a26-0fbb15606048"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="382f1817-4cff-42b9-b7ff-944b840d58cf">
+                    <propertyInstance
+                      Id="59bfe547-334b-4a65-8390-be865c68d021"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="defcc64b-a577-490a-8cdb-808ef7a0a189">
+                    <propertyInstance
+                      Id="17f56cf6-5f79-4416-891a-d11d8203a120"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1459079d-f924-47d7-8409-11c961ccc9b8">
+                    <propertyInstance
+                      Id="497230f6-5365-4eaf-99fa-2eb673a360ce"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <enumerationMoniker
+                Id="ec6339a5-ea79-4252-8baf-d193cc0b8eef"
+                LastKnownName="PatternBuilderLanguageCode"
+                LastKnownLocation="Package_0908.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributes>
+        <ownedOperations>
+          <operation
+            Id="397fbfef-da74-4f99-9d99-e914692375b1"
+            name="ClearCache"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d8b8526a-6249-46de-91fd-bb0404c38374"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate Member=ClearCache"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="171bbb5a-e2f1-478e-93a6-505090d43a67"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99b1c837-889e-4dc9-a2fd-36db9d3d3e9e">
+                    <propertyInstance
+                      Id="13593cc7-202a-441b-98b4-045e942e9fc7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0874e383-f371-4b32-85ab-24be196278ef">
+                    <propertyInstance
+                      Id="20cba167-6e93-48fd-aa7b-2047bc3e99e2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0be727c-70c7-4ca5-bf2e-e74fd47e50ee">
+                    <propertyInstance
+                      Id="677dc5ba-98bd-423c-9885-7b2cd9efb1ff"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82f974c1-d7c7-4502-8bb7-e0648f197fb4">
+                    <propertyInstance
+                      Id="5994b580-1a76-4922-92b7-0c649c6f3a73"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8410daca-56c4-4286-a6d2-f23e5c2286e8">
+                    <propertyInstance
+                      Id="0289869f-d942-4669-9652-6537f4dd330b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="256cb5ff-80bb-42e3-b006-6ad956bfdfe6"
+            name="TransformText"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="27c27077-80ac-43a0-9e3b-680f3026d5ac"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=IPatternTemplate Member=TransformText"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d71f234e-c581-45e9-8642-7c493aa175fe"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af633b42-6aaf-40bd-96c6-2bdf833a3e12">
+                    <propertyInstance
+                      Id="bc9f7ad1-2ba7-4456-9964-9bcd4a3fd75a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f360f7a-43a7-4c20-9f24-826689e855aa">
+                    <propertyInstance
+                      Id="9e8698c4-7362-43cd-91ae-71b82998200d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ae94755-0f3b-492d-9621-c20d3c552191">
+                    <propertyInstance
+                      Id="7bf634bf-8a10-4072-997c-b4acfef76e70"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d224c53e-d79b-43d8-9d6e-e236a34461fd">
+                    <propertyInstance
+                      Id="46bc145d-d9f9-4614-b500-5a6a3695112e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d76f227-f6a8-41a2-9851-ad3e7550aada">
+                    <propertyInstance
+                      Id="8db02108-059e-4562-b01f-57ec9e362814"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5d3cf7da-9415-4303-b130-81e7f5c07202"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Starfish.Design.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="dc5f5865-c423-4836-9c3c-8f4ef3e40c86"
+        name="TypeExtensions"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="b656b802-0bdb-4981-9d3e-2a5739658d0f"
+            handle="viewcode://./CodeSchema_Class?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=TypeExtensions"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cbb95311-ffdd-485d-9066-1b49fbb1169d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aeb0c4bb-2da2-4040-b77b-eb6fbfcaff7e">
+                <propertyInstance
+                  Id="2ffcb089-132e-46fd-af1f-889f02096555"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5795742-1efb-44cb-a083-5c8453c720d0">
+                <propertyInstance
+                  Id="0e9c2856-40f2-44ff-938b-97522888776d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea5833d4-82a5-48f0-98fb-af85f66073eb">
+                <propertyInstance
+                  Id="fb015350-20ac-4c22-98d4-1daf851d15fb"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9be409ec-589c-4c24-baa5-ec40f3527858">
+                <propertyInstance
+                  Id="11d60a24-170e-46f9-81a5-b88eecb1e6c3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="19ecf99e-42dc-4394-ab01-921db2fa7457">
+                <propertyInstance
+                  Id="7a5cc55c-937f-418c-a453-6053ce0ac647"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d6eb1e0d-9fca-45f7-aad1-5890d5050883"
+            name="GetPatternBuilderTypes"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7f00c8d9-fa79-4311-a74d-e491916bb37c"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=TypeExtensions Member=(Name=GetPatternBuilderTypes OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Type)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="686f6b4d-fc6a-4de3-a57b-1014a6680c16"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74a14403-8185-465f-84c6-421db36c024f">
+                    <propertyInstance
+                      Id="1e04feab-8aee-4869-8112-ff3835fbac78"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92538010-6b11-4865-8b4e-af1b21c0f441">
+                    <propertyInstance
+                      Id="3ca555d7-1358-4ad5-b209-f62acfe97da4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2470ddc9-f871-47aa-95af-ca1a61e16826">
+                    <propertyInstance
+                      Id="636ac59a-f7c2-4959-af76-1d1db3fb615f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df8a661b-9db0-43b5-87c7-f635f4b39b88">
+                    <propertyInstance
+                      Id="a8f0d41e-8f5c-4c31-9199-67232e65484d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9fbf0e3-04b5-492f-85a4-f35a15b334b8">
+                    <propertyInstance
+                      Id="853f17ac-d8a2-4ac5-bdc8-329a6696e57b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b499f944-1051-4204-a09a-60bcae31f5f2"
+                  direction="Return"
+                  isOrdered="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2d9295f8-85d4-45df-9a15-d5b244478b43"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="63e125c7-a7c9-4cdc-bcdd-ff639480e9e1"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6b91211b-fb5f-4e22-a9e8-c126564d348d"
+                  name="type"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3980a75c-0ed0-4649-b127-edeee9334b64"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=TypeExtensions Member=(Name=GetPatternBuilderTypes OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Type)]) ParameterIdentifier=type"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ea04bef5-2111-45f4-bd28-781c2deaa35c"
+                      LastKnownName="Type"
+                      LastKnownLocation="Package1_0849.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c3e990c7-94ee-47dd-bcde-12dc04b45044"
+            name="GetTargetLanguages"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="223b995e-e995-4bc2-b01d-f0acdbec7ad7"
+                handle="viewcode://./CodeSchema_Method?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=TypeExtensions Member=(Name=GetTargetLanguages OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Type)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="674d9b18-41e6-4a9e-b8cb-08866d06d701"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55d0b21b-7819-4a24-a80f-3a4d9e576fd4">
+                    <propertyInstance
+                      Id="26169fae-49a2-43aa-9c01-3ba02e2a2606"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb51b73c-c9ca-49e3-8f25-1921bba01aab">
+                    <propertyInstance
+                      Id="ea23cdd4-aba2-4251-8efa-605cc968d8c3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af9f796b-eb33-48e0-9ad0-0fc5f45c30a2">
+                    <propertyInstance
+                      Id="701cfb6b-ccbf-452c-9d8e-26ce1a8d6397"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="903f4021-dd57-4469-b101-481be595ab4c">
+                    <propertyInstance
+                      Id="77acf72e-18f6-49a2-b059-057875689cae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="343e84d3-b76d-4d4e-b7ac-f82360707d2e">
+                    <propertyInstance
+                      Id="f753553e-c13d-473e-8153-f1e86e248ab5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="29c973f6-c4bb-4ad0-b321-3741ffc3bcd5"
+                  direction="Return"
+                  isOrdered="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0c345d4f-d4b7-4fa4-9030-a1f629dd3142"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fa2bb975-92b1-499a-9393-a8720c5c6c00"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c79da7af-85c3-4c4b-9f5c-b05206fb25c2"
+                  name="type"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="91161fcb-cdf0-419c-a6d2-fc1b6a31f53e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=file:///C:/Users/Josh/Dropbox/Code/Starfish/Generators/bin/Debug/Starfish.dll Namespace=Starfish Type=TypeExtensions Member=(Name=GetTargetLanguages OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=Type)]) ParameterIdentifier=type"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ea04bef5-2111-45f4-bd28-781c2deaa35c"
+                      LastKnownName="Type"
+                      LastKnownLocation="Package1_0849.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8e279930-3823-44ab-bb16-5c3cdb5f95e8"
+        LastKnownName="Base"
+        LastKnownLocation="Package_0912.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

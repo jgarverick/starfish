@@ -1,0 +1,35 @@
+﻿<#@ output extension=".cs" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System" #>
+<#@ parameter name="namespace" type="System.String" #>
+<#@ parameter name="className" type="System.String" #>
+<#@ parameter name="methods" type="System.Collections.Generic.List<Starfish.Structures.MethodStruct>" #>
+<#@ parameter name="language" type="Starfish.PatternBuilderLanguageCode" #>
+<# if(language.ToString() == "VB") {#>
+Imports System
+Imports System.ServiceModel
+Imports <#= namespace #>.Results
+
+Namespace <#= namespace #>.Contracts
+
+Public Partial Class <#= className #>StateMachine
+
+End Class
+
+End Namespace
+<# } else if (language.ToString() == "CSharp") {#>
+using System;
+using System.ServiceModel;
+using <#= namespace #>.Results;
+
+namespace <#= namespace #>.Contracts
+{
+
+	[ServiceContract()]
+	public partial class <#=className#>StateMachine
+	{
+
+	}
+
+}
+<# } #>

@@ -1,0 +1,38 @@
+﻿<#@ output extension=".cs" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System" #>
+<#@ parameter name="namespace" type="System.String" #>
+<#@ parameter name="className" type="System.String" #>
+<#@ parameter name="columns" type="System.Data.DataTable" #>
+<#@ parameter name="language" type="Starfish.PatternBuilderLanguageCode" #>
+
+<# if(language == Starfish.PatternBuilderLanguageCode.VB) {#>
+Namespace <#=namespace#>.Business 
+
+Public Partial Class <#=className#>
+<# foreach(System.Data.DataRow row in columns.Rows) { #>
+		Public Property <#= row[1].ToString() #>() As <#= row[2].ToString() #>
+		Get
+
+		End Get
+		Set(ByVal value as <#= row[2].ToString() #>)
+
+		End Set
+		End Property
+<# } #>
+End Class
+
+End Namespace
+
+<# } else if(language == Starfish.PatternBuilderLanguageCode.CSharp) {#>
+namespace <#=namespace#>.Business 
+{
+	public partial class <#=className#>
+	{
+<# foreach(System.Data.DataRow row in columns.Rows) { #>
+		public <#= row[2].ToString() #> <#= row[1].ToString() #> { get; set; }
+<# } #>
+	}
+
+}
+<# } #>
