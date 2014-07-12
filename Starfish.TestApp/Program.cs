@@ -15,7 +15,7 @@ namespace Starfish.TestApp
         static void Main(string[] args)
         {
             PatternBuilderConfig config = new PatternBuilderConfig();
-            config.PatternType = PatternBuilderTypeCode.Hibernate;
+            config.PatternType = PatternBuilderTypeCode.Custom;
             config.TargetLanguage = PatternBuilderLanguageCode.CSharp;
             config.SaveDirectory = "C:\\test\\";
             config.ProjectName = "Email";
