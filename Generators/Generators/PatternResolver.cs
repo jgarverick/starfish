@@ -1,27 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using Microsoft.Practices.Unity;
-using Starfish.Templates;
 using Starfish.Structures;
 using Starfish.Templates.Objects;
 using System.Reflection;
 using Starfish.Base;
 using Starfish.PatternBuilders;
-using Extensionista;
+using Castle.Windsor;
+using Castle.MicroKernel.Registration;
+using System;
 
 namespace Starfish
 {
     public class PatternResolver
     {
-        private static UnityContainer Resolver;
+        private static IWindsorContainer Resolver;
         private static PatternBuilderLanguageCode targetLanguage;
         private static PatternBuilderTypeCode patternType;
 
         static PatternResolver()
         {
-            Resolver = new UnityContainer();
+            Resolver = new WindsorContainer();
             Resolver.RegisterType(typeof(IPatternTemplate), typeof(Contract), "Contract");
             Resolver.RegisterType(typeof(IPatternTemplate), typeof(BusinessObject), "BusinessObject");
             Resolver.RegisterType(typeof(IPatternBuilder), typeof(CustomPatternBuilder), "CustomPatternBuilder");
@@ -31,7 +29,10 @@ namespace Starfish
             Resolver.RegisterType(typeof(IPatternBuilder), typeof(ServiceAdapterBuilder), "ServiceAdapterBuilder");
             Resolver.RegisterType(typeof(IPatternBuilder), typeof(ServiceFactoryBuilder), "ServiceFactoryBuilder");
             Resolver.RegisterType(typeof(IPatternBuilder), typeof(StateMachinePatternBuilder), "StateMachinePatternBuilder");
+
         }
+
+
 
         public static IPatternBuilder Resolve(PatternBuilderConfig options)
         {
